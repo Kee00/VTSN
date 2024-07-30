@@ -5608,10 +5608,10 @@ local Toggle = Tabs.Qs:AddToggle("MyToggle", {Title = "Tự Động Holy Torch",
             end
         end
     end)
-        
+
+Tabs.spl:AddSection("Wait")
+
     Tabs.Se:AddSection("Mirage Island")
-      
-      Tabs.spl:AddSection("Wait")
         
         local Toggle = Tabs.Se:AddToggle("MyToggle", {Title = "Tween To Mirage Island", Default = false })
 
